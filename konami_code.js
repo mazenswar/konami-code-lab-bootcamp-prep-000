@@ -11,10 +11,12 @@ const codes = [
   "a"
 ];
 
+ let index = 0;
+ 
 function init() {
   // your code here
   document.body.addEventListener('keydown', function(event) {
-    let index = 0;
+   
     
     for(let i = 0; i < codes.length; i++) {
       
