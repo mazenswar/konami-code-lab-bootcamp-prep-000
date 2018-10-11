@@ -16,19 +16,18 @@ const codes = [
 function init() {
   let index = 0;
   document.body.addEventListener('keydown', function(event) {
-    
       if(event.key === codes[index]) {
         index++; 
         if(index === codes.length) 
-        {
+          {
             alert("You did it!");
             index = 0;
           }
       }
-      
        else
-       {
-        index = 0;}
+          {
+            index = 0;
+          }
     }
   );
 }
