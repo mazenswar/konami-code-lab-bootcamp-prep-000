@@ -16,7 +16,7 @@ const codes = [
 function init() {
   document.body.addEventListener('keydown', function(event) {
    
-    for(let i = 0; i < codes.length; i++) {
+    for(let i = 0; i <= codes.length; i++) {
       let index = 0;
       if(event.key === codes[i]) {
         console.log(event.key);
