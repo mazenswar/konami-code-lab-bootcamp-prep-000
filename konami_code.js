@@ -16,7 +16,7 @@ function init() {
   document.addEventListener('keydown', function(event) {
     let index = 0;
     
-    for(let i = 0; i <= codes.length; i++) {
+    for(let i = 0; i < codes.length; i++) {
       
       if(event.code === codes[i]) {
         
