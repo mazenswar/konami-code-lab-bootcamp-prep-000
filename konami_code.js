@@ -26,13 +26,12 @@ function init() {
        else
        {
         index = 0;}
-
+    }
         if(index.length === codes.length) 
         {
             alert("You did it!");
           }
         
-      }
     }
   );
 }
