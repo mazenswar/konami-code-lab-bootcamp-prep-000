@@ -11,13 +11,13 @@ const codes = [
   "a"
 ];
 
- let index = 0;
+ 
  
 function init() {
   document.body.addEventListener('keydown', function(event) {
    
     for(let i = 0; i < codes.length; i++) {
-      
+      let index = 0;
       if(event.key === codes[i]) {
         console.log(event.key);
         index++; 
