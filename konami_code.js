@@ -20,7 +20,7 @@ function init() {
     for(let i = 0; i < codes.length; i++) {
       if(event.key === codes[i]) {
         index++; 
-        if(index === codes.length - 1) 
+        if(index === codes.length) 
         {
             alert("You did it!");
             index = 0;
