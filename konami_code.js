@@ -21,15 +21,18 @@ function init() {
       if(event.code === codes[i]) {
         
         index++; 
-        
+      }
+      
+       else
+       {
+        index = 0;}
+
         if(index.length === codes.length) 
         {
             alert("You did it!");
           }
         
       }
-      else{
-        index = 0;}
     }
   });
 }
