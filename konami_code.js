@@ -19,7 +19,7 @@ function init() {
     for(let i = 0; i < codes.length; i++) {
       
       if(event.code === codes[i]) {
-        console.log(event.key);
+        console.log(event.code);
         index++; 
         if(index === codes.length) 
         {
