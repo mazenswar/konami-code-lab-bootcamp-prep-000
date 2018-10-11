@@ -21,7 +21,7 @@ function init() {
       if(event.key === codes[i]) {
         
         index++; 
-        if(index.length === codes.length) 
+        if(index === codes.length) 
         {
             alert("You did it!");
             index = 0;
